@@ -1,0 +1,6 @@
+if SHIELD_PRAGMATIC36
+
+  config ZMK_KEYBOARD_NAME 
+    default "Pragmatic36"
+
+endif
