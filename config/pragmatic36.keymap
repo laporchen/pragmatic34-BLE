@@ -21,13 +21,13 @@
             >;
         };
 
-        lower {
-            display-name = "Lower";
+        movement {
+            display-name = "Movement";
             bindings = <
-&kp EXCL  &kp AT     &kp HASH  &kp DLLR  &kp PRCNT  &kp CARET  &kp AMPS   &kp ASTRK  &kp LPAR  &kp RPAR
-&trans    &kp TILDE  &kp DQT   &kp PIPE  &trans     &trans     &kp UNDER  &kp PLUS   &kp LBRC  &kp RBRC
-&trans    &trans     &trans    &trans    &trans     &trans     &trans     &trans     &trans    &trans
-                     &trans    &trans    &trans                           &mo 4      &trans    &trans
+&kp TAB       &kp LG(X)     &kp LG(C)   &kp LG(V)      &kp RET               &kp MINUS  &kp LG(LC(N1))  &kp LG(LC(N2))  &kp LG(LC(N3))  &kp LG(LC(RET))
+&kp LC(LEFT)  &kp LC(DOWN)  &kp LC(UP)  &kp LC(RIGHT)  &kp LC(LG(KP_PLUS))   &kp EQUAL  &kp LC(LG(N4))  &kp LG(LC(N5))  &kp LG(LC(N6))  &kp LG(LC(SPACE))
+&kp LA(LEFT)  &kp LA(DOWN)  &kp LA(UP)  &kp LA(RIGHT)  &kp LC(LG(KP_MINUS))  &kp TILDE  &kp LG(LC(N7))  &kp LC(LG(N8))  &kp LG(LC(N9))  &kp LG(LC(F))
+                            &none       &kp PG_UP      &kp PG_DN                                        &none           &none           &none
             >;
         };
 
