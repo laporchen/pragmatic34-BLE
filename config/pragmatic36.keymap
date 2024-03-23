@@ -31,13 +31,13 @@
             >;
         };
 
-        upper {
-            display-name = "Upper";
+        num {
+            display-name = "Num";
             bindings = <
-&kp N1  &kp N2     &kp N3   &kp N4    &kp N5  &kp N6  &kp N7     &kp N8     &kp N9    &kp N0
-&trans  &kp GRAVE  &kp SQT  &kp BSLH  &trans  &trans  &kp MINUS  &kp EQUAL  &kp LBKT  &kp RBKT
-&trans  &trans     &trans   &trans    &trans  &trans  &trans     &trans     &trans    &trans
-                   &trans   &trans    &mo 4                      &trans     &trans    &trans
+&none  &kp LS(LG(NUMBER_3))  &kp LS(LG(NUMBER_4))  &kp LS(LG(N5))  &none  &none  &kp N1  &kp N2  &kp N3  &none
+&none  &none                 &none                 &none           &none  &none  &kp N4  &kp N5  &kp N6  &none
+&none  &none                 &none                 &none           &none  &none  &kp N7  &kp N8  &kp N9  &none
+                             &none                 &none           &none                 &none   &none   &kp N0
             >;
         };
 
