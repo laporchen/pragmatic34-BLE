@@ -50,13 +50,15 @@
             >;
         };
 
-        layer_4 {
+        fn {
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
-                &trans  &trans  &trans                  &trans  &trans  &trans
+&kp F1  &kp F2   &kp F3   &kp F4   &kp LC(LG(LEFT))      &kp LS(PIPE)  &kp SQT   &kp LS(DQT)  &kp LS(TILDE)  &kp GRAVE
+&kp F5  &kp F6   &kp F7   &kp F8   &kp LG(LC(UP_ARROW))  &kp BSLH      &kp LEFT  &kp DOWN     &kp UP         &kp RIGHT
+&kp F9  &kp F10  &kp F11  &kp F12  &kp LC(LG(RIGHT))     &none         &none     &none        &none          &kp LS(UNDER)
+                 &none    &none    &none                                         &none        &none          &none
             >;
+
+            label = "Function";
         };
     };
 };
